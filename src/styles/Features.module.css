@@ -27,15 +27,19 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 4.75rem;
+  color: white;
 }
 
 .container .featuresDescription main {
-  display: flex;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
   width: 39.8125rem;
   align-items: flex-start;
   align-content: flex-start;
   gap: 3.375rem 2.5625rem;
   flex-wrap: wrap;
+  flex: 2;
 }
 
 .container .featuresDescription main div {

@@ -1,0 +1,8 @@
+/** @format */
+
+.layout {
+  display: flex;
+  height: 59.75rem;
+  padding: 5rem 6.25rem 1rem 6.25rem;
+  justify-content: center;
+}

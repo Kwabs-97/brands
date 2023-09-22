@@ -1,0 +1,38 @@
+/** @format */
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .container {
+  display: flex;
+  width: 90rem;
+  padding: 3.25rem 6.25rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 6.25rem;
+}
+
+.services .container header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8.5625rem;
+}
+
+.services .container main {
+  display: flex;
+  align-items: flex-start;
+  gap: 4.0625rem;
+  justify-content: flex-start;
+}
+
+.services .container main .serviceContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}

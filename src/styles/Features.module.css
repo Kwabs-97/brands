@@ -6,4 +6,41 @@
   padding: 3.125rem 6.25rem 5.1875rem 6.25rem;
   justify-content: center;
   align-items: center;
+  background: #02021e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.6875rem;
+}
+
+.container img {
+  width: 34rem;
+  height: 35.625rem;
+  border-radius: 1.875rem;
+}
+
+.container .featuresDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.75rem;
+}
+
+.container .featuresDescription main {
+  display: flex;
+  width: 39.8125rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3.375rem 2.5625rem;
+  flex-wrap: wrap;
+}
+
+.container .featuresDescription main div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
 }

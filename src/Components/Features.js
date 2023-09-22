@@ -6,7 +6,7 @@ import styles from "../styles/Features.module.css";
 function Features() {
   return (
     <div className={styles.features}>
-      <div className={styles.container}></div>
+      <div className={styles.layout}></div>
     </div>
   );
 }

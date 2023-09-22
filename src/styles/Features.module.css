@@ -1,0 +1,9 @@
+/** @format */
+
+.container {
+  display: flex;
+  height: 43.9375rem;
+  padding: 3.125rem 6.25rem 5.1875rem 6.25rem;
+  justify-content: center;
+  align-items: center;
+}

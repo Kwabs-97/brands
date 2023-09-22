@@ -1,0 +1,14 @@
+/** @format */
+
+nav .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+nav .container .links .linksContainer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+}

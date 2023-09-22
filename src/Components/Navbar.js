@@ -1,5 +1,6 @@
 /** @format */
 
+import Button from "../features/Button";
 import styles from "../styles/Navbar.module.css";
 import React from "react";
 
@@ -15,11 +16,11 @@ function Navbar() {
     },
     {
       id: 3,
-      link: "Pricing",
+      link: "Features",
     },
     {
       id: 4,
-      link: "Features",
+      link: "Pricing",
     },
     {
       id: 5,
@@ -29,16 +30,22 @@ function Navbar() {
 
   return (
     <nav>
-      <div>
-        {" "}
-        <span>LOGO</span>
+      <div className={styles.container}>
+        <div>
+          {" "}
+          <span>LOGO</span>
+        </div>
+        <div className={styles.links}>
+          <ul className={styles.linksContainer}>
+            {navlinks.map((link, index) => (
+              <a key={link.id}>{link.link}</a>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <Button>Contact Us</Button>
+        </div>
       </div>
-      <div>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div></div>
     </nav>
   );
 }

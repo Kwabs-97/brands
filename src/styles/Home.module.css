@@ -1,0 +1,90 @@
+/** @format */
+
+.home {
+  display: flex;
+  height: 59.75rem;
+  padding: 5rem 6.25rem 1rem 6.25rem;
+  justify-content: center;
+}
+.home .container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 6.25rem;
+}
+
+.home .container .section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .container .section1 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .container .section1 header .about {
+  margin: 1.25rem 0 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .container .section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.19rem;
+}
+.home .container .section2 .frame {
+  width: 26.5rem;
+  height: 25.3125rem;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+}
+
+.impressionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home .container .section2 .impressionsLayout {
+  display: inline-flex;
+  padding: 1.59375rem 2.375rem 1.59375rem 1.875rem;
+  align-items: flex-start;
+  gap: 5rem;
+  border-radius: 1.875rem;
+  width: 100%;
+  background: #02021e;
+  color: white;
+}
+
+.home .container .section2 .impressionsLayout .impressions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.875rem;
+}
+
+.home .container .section2 .eclipseLayout {
+  display: flex;
+  width: 22.0625rem;
+  height: 9.375rem;
+  padding: 2.5rem 4.4375rem 2.5rem 4.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  background: #6c49eb;
+}
+
+.home .container .section2 .eclipseLayout img {
+  width: 4.375rem;
+  height: 4.375rem;
+  flex-shrink: 0;
+  border-radius: 4.375rem;
+}

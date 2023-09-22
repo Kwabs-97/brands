@@ -3,6 +3,7 @@
 import Features from "./Components/Features";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
+import Pricing from "./Components/Pricing";
 import Services from "./Components/Services";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Services />
       <Features />
+      <Pricing />``
     </div>
   );
 }

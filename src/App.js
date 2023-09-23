@@ -13,7 +13,7 @@ function App() {
       <Home />
       <Services />
       <Features />
-      <Pricing />``
+      <Pricing />
     </div>
   );
 }

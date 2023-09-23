@@ -114,4 +114,10 @@ main button {
   margin-bottom: 1.88rem;
   border: transparent 1px solid;
   outline: none;
+  transition: transform 0.3s;
+}
+
+main button:hover{
+  transform: scale(0.96);
+  cursor: pointer;
 }

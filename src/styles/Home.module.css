@@ -3,16 +3,16 @@
 .home {
   display: flex;
   height: 59.75rem;
-  padding: 5rem 6.25rem 1rem 6.25rem;
+  padding: 2rem 6.25rem 1rem 6.25rem;
   justify-content: center;
+  font-family: "Satoshi Variable", sans-serif;
 }
 .home .container {
   display: grid;
   grid-template-rows: auto auto;
   flex-direction: column;
-
   align-items: center;
-  gap: 6.25rem;
+  gap: 2.25rem;
 }
 
 .home .container .section1 {
@@ -28,47 +28,103 @@
   align-items: center;
 }
 
+.home .container .section1 header span {
+  color: #6c49eb;
+  font-family: inherit;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .home .container .section1 header .about {
-  margin: 1.25rem 0 2.5rem 0;
+  margin: 1.25rem 0 1.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 40.135rem;
+}
+
+.home .container .section1 header .about h2 {
+  color: #02021e;
+  text-align: center;
+  font-family: inherit;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 4.5rem */
+  letter-spacing: -0.1125rem;
+}
+
+.home .container .section1 header .about .more {
+  color: var(--foundation-blue-blue-400, #35354b);
+  text-align: center;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  width: 35rem;
+  font-weight: 400;
+  line-height: 160%; /* 1.6rem */
 }
 
 .home .container .section2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   gap: 1.19rem;
+  align-items: center;
+  justify-items: center;
 }
 .home .container .section2 .frame {
-  width: 26.5rem;
-  height: 25.3125rem;
+  width: 24.5rem;
+  height: 20.5rem;
   flex-shrink: 0;
   border-radius: 1.875rem;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .impressionsContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1.06rem;
 }
 
 .home .container .section2 .impressionsLayout {
-  display: inline-flex;
-  padding: 1.59375rem 2.375rem 1.59375rem 1.875rem;
+  display: flex;
+  padding: 1.59375rem;
   align-items: flex-start;
-  gap: 5rem;
+  gap: 4rem;
   border-radius: 1.875rem;
   width: 100%;
   background: #02021e;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .home .container .section2 .impressionsLayout .impressions {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 3.875rem;
+  gap: 1.875rem;
+}
+
+.home .container .section2 .impressionsLayout .impressions section h3 {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.home .container .section2 .impressionsLayout .impressions section p {
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.675rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .home .container .section2 .eclipseLayout {

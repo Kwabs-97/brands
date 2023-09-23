@@ -25,7 +25,7 @@ const Home = () => {
             </section>
             <div className={styles.about}>
               <section className={styles.mainHeading}>
-                <h2>DRIVE ENGAGEMENT, AND UNLEASH SUCCESS WITH US</h2>
+                <h2>Drive Engagement, and Unleash Success with us.</h2>
               </section>
               <section className={styles.more}>
                 <p>
@@ -40,9 +40,8 @@ const Home = () => {
           </aside>
         </div>
         <div className={styles.section2}>
-          <section>
-            <img src={frame1} alt="" className={styles.frame} />
-          </section>
+          <img src={frame1} alt="" className={styles.frame} />
+
           <section className={styles.impressionsContainer}>
             <aside className={styles.impressionsLayout}>
               <div className={styles.impressions}>
@@ -70,9 +69,8 @@ const Home = () => {
               <img src={eclipse5} alt="" className={styles.eclipse} />
             </aside>
           </section>
-          <section>
-            <img src={frame2} alt="" className={styles.frame} />
-          </section>
+
+          <img src={frame2} alt="" className={styles.frame} />
         </div>
       </div>
     </div>

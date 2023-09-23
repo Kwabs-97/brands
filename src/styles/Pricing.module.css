@@ -34,7 +34,12 @@ main .card {
 
 main .standard {
   background: #6c49eb;
-  color:white
+  color: white;
+}
+
+main .standard button {
+  background-color: white;
+  color: #02021e;
 }
 
 main .priceHeader {
@@ -78,4 +83,6 @@ main button {
   background: #02021e;
   color: white;
   margin-bottom: 1.88rem;
+  border: transparent 1px solid;
+outline: none;
 }

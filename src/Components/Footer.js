@@ -70,19 +70,19 @@ function Footer() {
       </div>
       <div className={styles.socials}>
         <div className={styles.iconContainer}>
-          <FaInstagram className={styles.icon} style={{ color: "white" }} />
+          <FaInstagram className={styles.icon} style={{ color: "white", margin: ".3rem" }} />
         </div>
         <div className={styles.iconContainer}>
-          <FaFacebook className={styles.icon} style={{ color: "white" }} />
+          <FaFacebook className={styles.icon} style={{ color: "white", margin: ".3rem" }} />
         </div>
         <div className={styles.iconContainer}>
-          <FaLinkedinIn className={styles.icon} style={{ color: "white" }} />
+          <FaLinkedinIn className={styles.icon} style={{ color: "white", margin: ".3rem" }} />
         </div>
         <div className={styles.iconContainer}>
-          <FaTwitter className={styles.icon} style={{ color: "white" }} />
+          <FaTwitter className={styles.icon} style={{ color: "white", margin: ".3rem" }} />
         </div>
         <div className={styles.iconContainer}>
-          <FaYoutube className={styles.icon} style={{ color: "white" }} />
+          <FaYoutube className={styles.icon} style={{ color: "white", margin: ".3rem" }} />
         </div>
       </div>
     </footer>

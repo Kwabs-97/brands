@@ -2,24 +2,23 @@
 
 .home {
   display: flex;
-  height: 59.75rem;
-  padding: 2rem 6.25rem 1rem 6.25rem;
+
+  padding: 1.5rem 6.25rem 1rem 6.25rem;
   justify-content: center;
   font-family: "Satoshi Variable", sans-serif;
 }
 .home .container {
-  display: grid;
-  grid-template-rows: auto auto;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.25rem;
 }
 
 .home .container .section1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .home .container .section1 header {

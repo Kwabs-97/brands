@@ -2,6 +2,7 @@
 
 import React from "react";
 import styles from "../styles/Footer.module.css";
+import { FaInstagram, FaFacebook, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -67,7 +68,23 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className={styles.socials}></div>
+      <div className={styles.socials}>
+        <div className={styles.iconContainer}>
+          <FaInstagram className={styles.icon} style={{ color: "white" }} />
+        </div>
+        <div className={styles.iconContainer}>
+          <FaFacebook className={styles.icon} style={{ color: "white" }} />
+        </div>
+        <div className={styles.iconContainer}>
+          <FaLinkedinIn className={styles.icon} style={{ color: "white" }} />
+        </div>
+        <div className={styles.iconContainer}>
+          <FaTwitter className={styles.icon} style={{ color: "white" }} />
+        </div>
+        <div className={styles.iconContainer}>
+          <FaYoutube className={styles.icon} style={{ color: "white" }} />
+        </div>
+      </div>
     </footer>
   );
 }

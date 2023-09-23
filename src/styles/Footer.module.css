@@ -5,6 +5,7 @@ footer {
   flex-direction: column;
   padding: 4.31rem 9rem;
   background: #222;
+  gap: 4.75rem;
 }
 
 .footerLinks {
@@ -57,8 +58,6 @@ footer {
   gap: 1.88rem;
 }
 
-
-
 .footerLinks .linksContainer div ul {
   display: flex;
   flex-direction: column;
@@ -77,4 +76,11 @@ footer {
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+}
+
+footer .socials {
+  display: flex;
+  gap: 1.25rem;
+  align-self: flex-end;
+  padding-right: 10.94rem;
 }

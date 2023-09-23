@@ -1,5 +1,6 @@
 /** @format */
 
+import Blog from "./Components/Blog";
 import Features from "./Components/Features";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Features />
       <Pricing />
+      <Blog />
     </div>
   );
 }

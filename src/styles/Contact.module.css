@@ -1,13 +1,7 @@
 /** @format */
 
 .contact {
-  display: flex;
-  width: 90rem;
-  padding: 3.75rem 6.25rem 0rem 6.25rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3.3125rem;
+  background: #f9f7f2;
 }
 
 .contact .container {
@@ -56,6 +50,6 @@
   width: 77.5rem;
   height: 30.625rem;
   border-radius: 1.875rem 1.875rem 0rem 0rem;
-  background: url("../assets/contactUs.png") top no-repeat ;
+  background: url("../assets/contactUs.png") top no-repeat;
   background-size: cover;
 }

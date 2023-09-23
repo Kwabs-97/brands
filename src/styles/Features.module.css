@@ -60,3 +60,21 @@
   align-items: flex-start;
   gap: 0.25rem;
 }
+
+.container .featuresDescription main div header h3 {
+  color: #f9f9f9;
+  font-family: Satoshi;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container .featuresDescription main div article {
+  color: #e6e6e9;
+  font-family: Satoshi;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.4rem */
+}

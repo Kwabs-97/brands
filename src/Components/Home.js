@@ -62,11 +62,11 @@ const Home = () => {
               </div>
             </aside>
             <aside className={styles.eclipseLayout}>
-              <img src={eclipse1} alt="" className={styles.eclipse} />
-              <img src={eclipse2} alt="" className={styles.eclipse} />
-              <img src={eclipse3} alt="" className={styles.eclipse} />
-              <img src={eclipse4} alt="" className={styles.eclipse} />
-              <img src={eclipse5} alt="" className={styles.eclipse} />
+              <img src={eclipse1} alt="" className={styles.eclipse1} />
+              <img src={eclipse2} alt="" className={styles.eclipse2} />
+              <img src={eclipse3} alt="" className={styles.eclipse3} />
+              <img src={eclipse4} alt="" className={styles.eclipse4} />
+              <img src={eclipse5} alt="" className={styles.eclipse5} />
             </aside>
           </section>
 

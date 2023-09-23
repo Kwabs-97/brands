@@ -5,7 +5,7 @@
   width: 90rem;
   padding: 3.75rem 6.25rem 0rem 6.25rem;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 3.3125rem;
 }
@@ -14,7 +14,7 @@
   display: flex;
   padding: 3.75rem 6.25rem 0rem 6.25rem;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 3.3125rem;
 }
@@ -30,4 +30,32 @@
   flex-direction: column;
   align-items: center;
   gap: 0.625rem;
+}
+
+.contact .header span {
+  color: #6c49eb;
+  font-family: Satoshi;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact .header h2 {
+  width: 48.0625rem;
+  color: #02021e;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 3rem */
+}
+
+.contact .container .contactUsImg {
+  width: 77.5rem;
+  height: 30.625rem;
+  border-radius: 1.875rem 1.875rem 0rem 0rem;
+  background: url("../assets/contactUs.png") top no-repeat ;
+  background-size: cover;
 }

@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
 import Button from "../features/Button";
+import contactUsImg from "../assets/contactUs.png";
 
 function Contact() {
   return (
@@ -15,7 +16,7 @@ function Contact() {
           </div>
           <Button>Contact Us</Button>
         </div>
-        <img src="" alt="" />
+        <div className={styles.contactUsImg}></div>
       </div>
     </div>
   );

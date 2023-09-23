@@ -1,0 +1,80 @@
+/** @format */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 4.31rem 9rem;
+  background: #222;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 12rem;
+}
+
+.footerLinks .logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.37rem;
+}
+
+.footerLinks .logo h1 {
+  color: #fff;
+  font-family: Satoshi;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footerLinks .logo span {
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.8rem */
+  width: 26.5625rem;
+}
+
+.footerLinks .linksContainer {
+  display: flex;
+  gap: 6.2rem;
+}
+
+.footerLinks .linksContainer header {
+  color: #fff;
+  font-family: Satoshi;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footerLinks .linksContainer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+}
+
+
+
+.footerLinks .linksContainer div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+.footerLinks .linksContainer div ul li {
+  list-style: none;
+}
+
+.footerLinks .linksContainer div ul li a {
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}

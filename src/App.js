@@ -7,6 +7,7 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Pricing from "./Components/Pricing";
 import Services from "./Components/Services";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Pricing />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }

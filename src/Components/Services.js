@@ -8,11 +8,11 @@ function Services() {
     <div className={styles.services}>
       <div className={styles.container}>
         <header>
-          <div>
+          <div className={styles.header}>
             <span>Our Services</span>
             <h2>Unleash Our Services for Social Success</h2>
           </div>
-          <div>
+          <div className={styles.headerDetails}>
             <span>
               We elevate your brand with exceptional services. Our comprehensive offerings maximise
               your online presence, engage your audience, and drive impactful results.

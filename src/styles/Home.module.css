@@ -2,7 +2,6 @@
 
 .home {
   display: flex;
-
   padding: 1.5rem 6.25rem 1rem 6.25rem;
   justify-content: center;
   font-family: "Satoshi Variable", sans-serif;
@@ -30,7 +29,7 @@
 .home .container .section1 header span {
   color: #6c49eb;
   font-family: inherit;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

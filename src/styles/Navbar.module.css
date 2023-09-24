@@ -12,3 +12,7 @@ nav .container .links .linksContainer {
   align-items: flex-start;
   gap: 40px;
 }
+
+.links .linksContainer a:hover {
+  cursor: pointer;
+}

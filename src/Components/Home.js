@@ -1,12 +1,11 @@
-
+/** @format */
 
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Button from "../features/Button";
 
 //---- image data -------------//
-import frame1 from "../assets/045a36973b1b54d446d9764f07731d37.webp";
-import frame2 from "../assets/2c8931fb85d6d7ed6f8849b21ea4687b.webp";
+
 import eclipse1 from "../assets/33fe647a46f9bf668322f8c1d94ed937.webp";
 import eclipse2 from "../assets/7d62b2c9ff8b51ac3a648cf214d14866.webp";
 import eclipse3 from "../assets/056cc892636460bee5791aa3f243854c.webp";
@@ -40,7 +39,7 @@ const Home = () => {
           </aside>
         </div>
         <div className={styles.section2}>
-          <img src={frame1} alt="" className={styles.frame} />
+          <div className={`${styles.frame} ${styles.frame1}`}></div>
 
           <section className={styles.impressionsContainer}>
             <aside className={styles.impressionsLayout}>
@@ -70,7 +69,7 @@ const Home = () => {
             </aside>
           </section>
 
-          <img src={frame2} alt="" className={styles.frame} />
+          <div className={`${styles.frame} ${styles.frame2}`}></div>
         </div>
       </div>
     </div>

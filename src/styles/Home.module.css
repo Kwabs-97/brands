@@ -81,6 +81,15 @@
   box-sizing: border-box;
 }
 
+.home .container .section2 .frame1 {
+  background: url("../assets/045a36973b1b54d446d9764f07731d37.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.home .container .section2 .frame2 {
+  background: url("../assets/2c8931fb85d6d7ed6f8849b21ea4687b.webp") no-repeat center center;
+  background-size: cover;
+}
 .impressionsContainer {
   display: flex;
   flex-direction: column;

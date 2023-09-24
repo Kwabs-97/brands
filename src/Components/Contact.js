@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
 import Button from "../features/Button";
-import contactUsImg from "../assets/contactUs.png";
+import contactUsImg from "../assets/contactUs.webp";
 
 function Contact() {
   return (

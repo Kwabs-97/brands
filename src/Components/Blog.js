@@ -2,10 +2,10 @@
 
 import React from "react";
 import styles from "../styles/Blog.module.css";
-import blogImg from "../assets/552fa125150a7368a9e87eeaae2b6186.png";
-import sideImg1 from "../assets/b2d98824fce6ce33d480d7d5cdca371c.png";
-import sideImg2 from "../assets/fa1d3efd840e5f60b7f92cf079c46640.png";
-import sideImg3 from "../assets/1a0925c449f59daeedb4302a5d777151.png";
+import blogImg from "../assets/552fa125150a7368a9e87eeaae2b6186.webp";
+import sideImg1 from "../assets/b2d98824fce6ce33d480d7d5cdca371c.webp";
+import sideImg2 from "../assets/fa1d3efd840e5f60b7f92cf079c46640.webp";
+import sideImg3 from "../assets/1a0925c449f59daeedb4302a5d777151.webp";
 
 function Blog() {
   const currentDate = new Date();

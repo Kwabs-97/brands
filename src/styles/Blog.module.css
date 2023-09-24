@@ -13,10 +13,12 @@
   gap: 8.75rem;
 }
 
-.container .imgContainer img {
+.container .imgContainer {
   width: 30rem;
   height: 33rem;
   border-radius: 1.875rem;
+  background: url("../assets/552fa125150a7368a9e87eeaae2b6186.webp") no-repeat center center;
+  background-size: cover;
 }
 
 .blogDetails {
@@ -74,8 +76,23 @@
   letter-spacing: -0.025rem;
 }
 
-.blogDetails main .sideContainer img {
+.blogDetails main .sideContainer .sideImg {
   width: 6.25rem;
   height: 6.25rem;
   border-radius: 0.625rem;
+}
+
+.blogDetails main .sideContainer .sideImg1 {
+  background: url("../assets/b2d98824fce6ce33d480d7d5cdca371c.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.blogDetails main .sideContainer .sideImg2 {
+  background: url("../assets/fa1d3efd840e5f60b7f92cf079c46640.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.blogDetails main .sideContainer .sideImg3 {
+  background: url("../assets/1a0925c449f59daeedb4302a5d777151.webp") no-repeat center center;
+  background-size: cover;
 }

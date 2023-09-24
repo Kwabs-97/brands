@@ -2,10 +2,7 @@
 
 import React from "react";
 import styles from "../styles/Blog.module.css";
-import blogImg from "../assets/552fa125150a7368a9e87eeaae2b6186.webp";
-import sideImg1 from "../assets/b2d98824fce6ce33d480d7d5cdca371c.webp";
-import sideImg2 from "../assets/fa1d3efd840e5f60b7f92cf079c46640.webp";
-import sideImg3 from "../assets/1a0925c449f59daeedb4302a5d777151.webp";
+
 
 function Blog() {
   const currentDate = new Date();
@@ -17,9 +14,7 @@ function Blog() {
   return (
     <div className={styles.blog}>
       <div className={styles.container}>
-        <div className={styles.imgContainer}>
-          <img src={blogImg} alt="" />
-        </div>
+        <div className={styles.imgContainer}></div>
         <div className={styles.blogDetails}>
           <header>
             <span>OUR BLOG</span>
@@ -27,21 +22,21 @@ function Blog() {
           </header>
           <main>
             <div className={styles.sideContainer}>
-              <img src={sideImg1} alt="" />
+              <div className={`${styles.sideImg} ${styles.sideImg1}`}></div>
               <div>
                 <p>"Visual Storytelling: Crafting Compelling Brand Stories Through Imagery"</p>
                 <span>{formattedDate}</span>
               </div>
             </div>
             <div className={styles.sideContainer}>
-              <img src={sideImg2} alt="" />
+              <div className={`${styles.sideImg} ${styles.sideImg2}`}></div>
               <div>
                 <p>“Capitalising on Instant Gratification in Social Media Marketing"</p>
                 <span>{formattedDate}</span>
               </div>
             </div>
             <div className={styles.sideContainer}>
-              <img src={sideImg3} alt="" />
+              <div className={`${styles.sideImg} ${styles.sideImg3}`}></div>
               <div>
                 <p>“How Narratives Drive Social Media Engagement”</p>
                 <span>{formattedDate}</span>

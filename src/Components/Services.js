@@ -5,7 +5,7 @@ import styles from "../styles/Services.module.css";
 
 function Services() {
   return (
-    <div className={styles.services}>
+    <div className={styles.services} id="Services">
       <div className={styles.container}>
         <header>
           <div className={styles.header}>

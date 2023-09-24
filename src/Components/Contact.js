@@ -7,7 +7,7 @@ import contactUsImg from "../assets/contactUs.webp";
 
 function Contact() {
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id="Contact">
       <div className={styles.container}>
         <div className={styles.header}>
           <div>

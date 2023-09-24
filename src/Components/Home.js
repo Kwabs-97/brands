@@ -15,7 +15,7 @@ import eclipse5 from "../assets/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0.webp";
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <div className={styles.home} id="Home">
       <div className={styles.container}>
         <div className={styles.section1}>
           <header>

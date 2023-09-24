@@ -7,7 +7,7 @@ import Radio from "../features/Radio";
 
 function Pricing() {
   return (
-    <div className={styles.pricing}>
+    <div className={styles.pricing} id="Pricing">
       <div className={styles.container}>
         <header>
           <div>

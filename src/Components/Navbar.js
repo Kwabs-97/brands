@@ -4,7 +4,12 @@ import Button from "../features/Button";
 import styles from "../styles/Navbar.module.css";
 import React from "react";
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 function Navbar() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   const navlinks = [
     {
       id: 1,
@@ -32,13 +37,14 @@ function Navbar() {
     <nav>
       <div className={styles.container}>
         <div>
-          {" "}
           <span>LOGO</span>
         </div>
         <div className={styles.links}>
           <ul className={styles.linksContainer}>
             {navlinks.map((link, index) => (
-              <a key={link.id}>{link.link}</a>
+              <Link key={link.id} to={link.link} smooth={true} duration={500}>
+                {link.link}
+              </Link>
             ))}
           </ul>
         </div>

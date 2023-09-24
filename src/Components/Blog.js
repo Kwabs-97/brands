@@ -12,7 +12,7 @@ function Blog() {
   const formattedDate = new Intl.DateTimeFormat("en-US", options).format(currentDate);
 
   return (
-    <div className={styles.blog}>
+    <div className={styles.blog} id="Blog">
       <div className={styles.container}>
         <div className={styles.imgContainer}></div>
         <div className={styles.blogDetails}>

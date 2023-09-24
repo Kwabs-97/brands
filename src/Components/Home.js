@@ -1,17 +1,17 @@
-/** @format */
+webp/** @format */
 
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Button from "../features/Button";
 
 //---- image data -------------//
-import frame1 from "../assets/045a36973b1b54d446d9764f07731d37.png";
-import frame2 from "../assets/2c8931fb85d6d7ed6f8849b21ea4687b.png";
-import eclipse1 from "../assets/33fe647a46f9bf668322f8c1d94ed937.png";
-import eclipse2 from "../assets/7d62b2c9ff8b51ac3a648cf214d14866.png";
-import eclipse3 from "../assets/056cc892636460bee5791aa3f243854c.png";
-import eclipse4 from "../assets/d8003e7c5abaae02be0c524fe88ec378.png";
-import eclipse5 from "../assets/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0.png";
+import frame1 from "../assets/045a36973b1b54d446d9764f07731d37.webp";
+import frame2 from "../assets/2c8931fb85d6d7ed6f8849b21ea4687b.webp";
+import eclipse1 from "../assets/33fe647a46f9bf668322f8c1d94ed937.webp";
+import eclipse2 from "../assets/7d62b2c9ff8b51ac3a648cf214d14866.webp";
+import eclipse3 from "../assets/056cc892636460bee5791aa3f243854c.webp";
+import eclipse4 from "../assets/d8003e7c5abaae02be0c524fe88ec378.webp";
+import eclipse5 from "../assets/8a0e7a6ab75fc2eabd9a0a9ae72f8ea0.webp";
 //---- end of image data -----//
 
 const Home = () => {

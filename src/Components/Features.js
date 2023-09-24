@@ -3,8 +3,6 @@
 import React from "react";
 import styles from "../styles/Features.module.css";
 
-import featuresImg from "../assets/5a8e56a95c86c7cb47e483dd255450c3.webp";
-
 function Features() {
   return (
     <div className={styles.features}>
@@ -54,9 +52,7 @@ function Features() {
               </div>
             </main>
           </div>
-          <div>
-            <img src={featuresImg} alt="" />
-          </div>
+          <div className={styles.featuresImg}></div>
         </div>
       </div>
     </div>
